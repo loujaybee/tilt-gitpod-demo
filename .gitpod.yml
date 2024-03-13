@@ -2,3 +2,10 @@ tasks:
   - command: |
       ./install.sh
       tilt up
+
+ports:
+  - name: application
+    port: 3000
+
+  - name: tilt
+    port: 10350
