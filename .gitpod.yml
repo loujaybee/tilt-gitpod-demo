@@ -6,6 +6,8 @@ tasks:
 ports:
   - name: application
     port: 3000
+    onOpen: open-browser
 
   - name: tilt
     port: 10350
+    onOpen: open-browser
