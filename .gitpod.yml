@@ -1,0 +1,4 @@
+tasks:
+  - command: |
+      ./install.sh
+      tilt up
